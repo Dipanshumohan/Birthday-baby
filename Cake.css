@@ -1,27 +1,26 @@
-
-.screen {
-
-    display: none;
-}
-
-.active {
-    
- display: block;
-}
-
 body {
     display: flex;
     height: 100vh;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    background-color: rgb(233, 164, 175) ;
-     
+    background-color: black; /* Initially set to black */
+    transition: background-color 4s ease; /* Smooth transition for background color */
 }
+
+.hidden {
+    display: none;
+}
+
+
 #birthday-cake {
     position: relative;
     top: 200px;
     left: 200px;
+    transition: opacity 2s ease;
+}
+.show {
+    opacity: 1;
 }
 #birthday-cake:before {
     content: "";
@@ -40,7 +39,7 @@ body {
     width: 350px;
     height: 130px;
     transform: translate(-50%,-60%);
-}
+    }
 .cake:before, .cake:after {
     content: "";
     position: absolute;

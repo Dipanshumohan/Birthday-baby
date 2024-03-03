@@ -7,31 +7,29 @@
     <title> Happy Birthday </title>
     <link rel="stylesheet" href="Cake.css">
     <link rel="stylesheet" href="styles.css">
-   <link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div id="screen1" class="screen active">
-        <button onclick="switchScreen()"> Click to turn on lights </button>
-    </div>
-    <div id="screen2" class="screen">
-        <div id="birthday-cake">
-            <div class="cake">
-                <div class="middle"></div>
-                <div class="chocs"></div>
-                <div class="top"></div>
-            </div>
-            <div class="candles">
-                <div class="flame"></div>
-                <div class="flame2"></div>
-                <div class="flame3"></div>
-                <div class="shadows"></div>
-                <div class="text"> Happy Birthday Michilina! </div>
-            </div>
-            <p class="text2"> *Click on the flame to blow candles </p>
 
+    <div id="birthday-cake" class="hidden">
+        <div class="cake">
+            <div class="middle"></div>
+            <div class="chocs"></div>
+            <div class="top"></div>
         </div>
+        <div class="candles">
+            <div class="flame"></div>
+            <div class="flame2"></div>
+            <div class="flame3"></div>
+            <div class="shadows"></div>
+            <div class="text"> Happy Birthday Michilina! </div>
+        </div>
+        <p class="text2"> *Click on the flame to blow candles </p>
+
     </div>
+    <button id="button" onclick="switchScreen()">Click to turn on lights</button>
+
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
