@@ -1,0 +1,27 @@
+#typewriter {
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+    overflow: hidden;
+    color: white;
+    white-space: nowrap;
+    margin: 0 auto;
+    padding: 10px;
+    display: inline-block;
+    width: 30em; /* Adjust according to your requirement */
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  
+
+  #button {
+    
+    position: absolute;
+    margin: 550px 0px 0px 30px;
+     
+  }
