@@ -11,16 +11,16 @@ playButton.addEventListener('click', () => {
 });
 
 const texts = [
-    "This is the first line.",
-    "This is the second line.",
-    "This is the third line.",
-    "This is the fourth line.",
-    "This is the fifth line.",
-    "This is the sixth line.",
-    "This is the seventh line.",
-    "This is the eighth line.",
-    "This is the ninth line.",
-    "This is the tenth line."
+    "Hello Misha.... How are you??? Don't click on the button yet hehe~",
+    "So you by now have known that this is your Birthday surprise.... This is what I have created from my basic Engineering skills...totally not flexing :33",
+    "It's been two months since we met and every day since I met you, there's always been a smile in my face... Thank you so much Misha I really appreciate you in my life.",
+    "and so I'll continue to always tell you that I love you even when you tell me not too... I am like this deal with it hehe",
+    "It will be your first birthday in which I'll be with you and I wish that it won't be the last... I wanna celebrate every Birthday of yours in a way that you look forward for next one <3",
+    "and Now I want you to click that button...let's count from 3.......3...",
+    "2.....",
+    "1.....",
+    "NOWWW.....",
+     "....... Just click it already TT... you tease!",
   ];
   
   let count = 0;
@@ -50,7 +50,7 @@ const texts = [
 
 
   var i = 0;
-var txt1 = "Hi SweetHeart.....!  <<               Now I wan't to say something special to you. <<<                So , Please read everything carefully...!                                                                           > When I saw you for the first time < You seems something Special to me.  <<                  As the days goes < you get closer to me....! <<                           I don't know the reason why your thoughts always resonates inside my mind...!                                                     > Everything about you is always intresting for me...!                     << I am somewhat nervous Because I haven't said these words to anyone and I won't say to anyone in future...!                                                     > I Love my Parents so much than anything else in this world....!                    << Now You are the only person  whom I love equally with my parents....!                                                             >I Love U <SweetHeart.....! |                  <<<< Give me One chance to Prove my Love ...!";
+var txt1 = "So yeah.. this is your first gift!.....  <<               Your and yours only... A Virtual cake!!! sorry I am ill rn to make any joke TT  <<<                Well anyways.. Let's blow candles.. click on the flames~                                         > Happy Birthday Sweetheart <3 < May all the Blessing of god falls on you..  <<                  Happy 20th Birthday!!!! < I LOVE YOUUUUUUU!!!! <<                       And these balloons are for you.. you can pop them but please not to many as I am blowing them myself heheheh..                                  > You are the Best Misha!...                     << May you get all the happiness that you want and you never feel sad.                                          > I will always try my best to make you feel happy!                    << You are my whole Heart!! My other half...                       >I Love U <SweetHeart.....! |                  <<<< I wish you a very Happy Birthday once again~ Stay beautiful, cute and the amazing person you are!";
 var speed = 100;
 
 function typeWriter() {
