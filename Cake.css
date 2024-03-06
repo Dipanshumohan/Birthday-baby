@@ -16,8 +16,10 @@ body {
 #birthday-cake {
     position: relative;
     top: 200px;
-    left: 200px;
+    left: 1%;
     transition: opacity 4s ease;
+    margin-bottom: 150px;
+    
 }
 .show {
     opacity: 1;
@@ -39,6 +41,7 @@ body {
     width: 350px;
     height: 130px;
     transform: translate(-50%,-60%);
+   
     }
 .cake:before, .cake:after {
     content: "";
@@ -213,7 +216,7 @@ body {
     0%, 25%, 100% {transform: scaleY(1) rotate(-45deg);}
     50%, 75%{transform: scaleY(1.1) rotate(-45deg);}
 }
-.text, .text2 {
+.text{
     position: relative;
     color: white;
     font-family: "Zeyada", cursive;
@@ -234,12 +237,5 @@ body {
 
     }
 
-.text2  {
-    font-size: 30px;
-    width: 400px;
-    top: 40px;
-    right: 170px;
-    color: black;
-    
-}
+
  

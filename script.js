@@ -28,6 +28,7 @@ const texts = [
   let currentText = '';
   let letter = '';
   
+  
   function type() {
     if (count === texts.length) {
       return; // Stop typing animation when reaching the last line
@@ -47,7 +48,27 @@ const texts = [
   
   type();
 
+
+  var i = 0;
+var txt1 = "Hi SweetHeart.....!  <<               Now I wan't to say something special to you. <<<                So , Please read everything carefully...!                                                                           > When I saw you for the first time < You seems something Special to me.  <<                  As the days goes < you get closer to me....! <<                           I don't know the reason why your thoughts always resonates inside my mind...!                                                     > Everything about you is always intresting for me...!                     << I am somewhat nervous Because I haven't said these words to anyone and I won't say to anyone in future...!                                                     > I Love my Parents so much than anything else in this world....!                    << Now You are the only person  whom I love equally with my parents....!                                                             >I Love U <SweetHeart.....! |                  <<<< Give me One chance to Prove my Love ...!";
+var speed = 100;
+
+function typeWriter() {
+  if (i < txt1.length) {        
+     if(txt1.charAt(i)=='<')
+      document.getElementById("text1").innerHTML += '</br>'
+    else if(txt1.charAt(i)=='>')
+      document.getElementById("text1").innerHTML = ''
+      else
+      document.getElementById("text1").innerHTML += txt1.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+
 function switchScreen() {
+
+    
     var body = document.body;
     var cake = document.getElementById('birthday-cake');
     var button = document.getElementById('button');
@@ -58,13 +79,18 @@ function switchScreen() {
     button.style.display = 'none';
     typewriter.style.display = 'none'; // Hide the button
 
+
     setTimeout(function () {
         cake.classList.remove('hidden'); // Remove the 'hidden' class after 2 seconds
-        cake.classList.add('show'); // Add the 'show' class to reveal the cake with transition
+        cake.classList.add('show');
+        typeWriter();
+    
     }, 6000);
 
-
+    
 }
+
+    
 
 $(document).ready(function () {
   $(".candles").one("click", function () {

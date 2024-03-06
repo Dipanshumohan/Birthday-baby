@@ -17,14 +17,37 @@
     to { width: 100% }
   }
   
+  #text1 {
+    position: fixed;
+    bottom: 20px; /* Adjust this value to change the distance from the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 25px; /* Adjust the font size as needed */
+    text-align: center;
+    width: 50%;
+    font-family: "Zeyada", cursive;
+    line-height: 1;
+  }
+
+  #text1 br {
+    height: 0.5em; /* Adjust the height as needed */
+  }
   
+
 
   #button {
     
     position: absolute;
-    margin: 550px 0px 0px 30px;
+    margin: 550px 0px 0px 6px;
     z-index: 1001;
     cursor: pointer;
+    padding: 10px 20px;
+    background-color: #f7f8fa;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
   }
 
   /* Balloon styles */
